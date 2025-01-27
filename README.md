@@ -20,6 +20,8 @@ A primeira tela foi implementada em SwiftUI e representa um Menu com dois botõe
 Decidi aplicar alguns conceitos da Clean Architecture devido à sua maior adaptabilidade para uma futura modularização do projeto, que é uma necessidade bem comum em projetos de maior escala. Se houvesse mais tempo poderia criar ainda protocolos como UserRepository e UserUseCase na camada de Domain, e sua implementação UserRepositoryImpl na camada de Data. Mantendo uma clara separação de responsabilidades, permitindo que o código seja testável e de fácil manutenção.
 Utilizei URL session para fazer a requisição dos usuários, e as informações foram apresentadas em uma UITableViewController.
 
-Adicionei testes unitários para as seguintes viewModels: - UserViewModelTests.swift - FibonacciViewModelTests.swift
+Adicionei testes unitários para as seguintes viewModels: 
+- UserViewModelTests.swift
+- FibonacciViewModelTests.swift
 
 Caso houvesse mais tempo também poderia implementar funcionalidades como edição dos dados do usuário, upload de imagem, além de incluir testes de snapshots (UI).
