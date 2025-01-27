@@ -10,22 +10,21 @@ import SwiftUI
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
-    var window: UIWindow?
+	var window: UIWindow?
 
-    func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
-        guard let windowScene = (scene as? UIWindowScene) else { return }
+	func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
+		guard let windowScene = (scene as? UIWindowScene) else { return }
 
-        window = UIWindow(windowScene: windowScene)
+		window = UIWindow(windowScene: windowScene)
 
 		// MARK: - SwiftUI
 		window?.rootViewController = UIHostingController(rootView: MenuSwiftUIView())
 		window?.makeKeyAndVisible()
 
 		// MARK: - UIKit
-//      let rootViewController = FibonacciListViewController(viewModel: FibonacciViewModel())
 //		let rootViewController = UsersTableViewController(viewModel: UserViewModel())
-//      window?.rootViewController = UINavigationController(rootViewController: rootViewController)
+//		window?.rootViewController = UINavigationController(rootViewController: rootViewController)
 //		window?.makeKeyAndVisible()
-    }
+	}
 }
 
