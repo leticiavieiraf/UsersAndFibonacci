@@ -4,6 +4,8 @@ Simple app to fetch users from a public API and show Fibonacci sequence.
 - Download the project, open TableViewTest.xcodeproj. 
 - It's ready to Run the app, there is no 3rd party dependencies.
 
+##################################################
+
 Tech stack: iOS, Swift.Frameworks: SwiftUI, UIKit.
 Arquitetura: Clean architecture + MVVM
 
