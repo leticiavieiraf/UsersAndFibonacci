@@ -6,8 +6,10 @@ Simple app to fetch users from a public API and show Fibonacci sequence.
 
 ##################################################
 
-Tech stack: iOS, Swift.Frameworks: SwiftUI, UIKit.
-Arquitetura: Clean architecture + MVVM
+- Tech stack: iOS, Swift.
+- Frameworks: SwiftUI, UIKit.
+- Arquitetura: Clean architecture + MVVM.
+
 
 Eu optei por implementar dois exemplos: 
 1. Listagem de usuários consumindo uma API pública.
